@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fdfcfc;
+  }
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    justify-content: space-between;
+    gap: 50px 0 ;
+
+  }
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    
+
+  }
+
+.green { background-color: green;}
+.orange {background-color: orange;}
+.red { background-color: red;}
+.purple { background-color: purple;}
